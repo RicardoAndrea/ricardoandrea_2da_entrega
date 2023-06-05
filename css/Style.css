@@ -1,0 +1,276 @@
+*{margin: 0;
+  padding: 0;
+
+}
+body {
+        font-family: 'Lato',sans-serif;
+}
+
+
+.menu a{
+    display: block;
+    background-color: rgb(9, 9, 14);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+}
+.menu a:hover {/* cuando el mouse esta arriba */
+    opacity: 70%;
+    
+}
+
+h1 {
+    margin-top: 40px ;
+    margin-left: 40%;
+    padding: auto;    
+    font-size: xx-large;
+    font-family:'Inter', sans-serif;
+}
+.contenido {
+    padding-top: 100px;
+}
+.clientes{
+    margin-top: 50px;
+    
+}
+#t1 {
+    max-width: 48%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+#t2{
+    max-width: 48%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+#t3{
+    width: 48%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+@media (max-width: 768px){
+    #t1 {
+    max-width: 98%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+#t2{
+    max-width: 98%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+#t3{
+    width: 98%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+}
+@media (min-width: 900px){
+    #t1 {
+    max-width: 32%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+#t2{
+    max-width: 32%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+#t3{
+    width: 32%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+}
+footer {
+    width: 100%;
+    padding: 10px 0px;
+    background: gray;
+   
+}
+footer section {
+    display: flex;
+    background-color:gray;
+    justify-content: space-around;
+    
+}
+section .copy {
+    margin-bottom: 10px;
+    padding-top: 20px;    
+    
+    
+}
+
+section .redes img{ 
+    padding-top: 10px;
+    padding: 1px;
+    margin-top: 0px;
+}
+section .redes label{ 
+    padding-top: 10px;
+    padding: 1px;
+    margin-top: 20px;
+}    
+.biografia div img{
+    width: 40%;
+    height: 40%;
+    margin-top: 50px ;
+    margin-left: 33%;
+}
+.biografia div p{
+    margin-top: 50px ;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    font-size: xx-large;
+    font-family:'Inter', sans-serif;
+    background-color: rgb(143, 231, 202);
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+.servicios div{
+    background-color: aqua;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    padding: 15px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.servicios div .branding {
+    max-width: 25%;
+    height: 40px;
+    margin-left: 45px;
+    line-height: 1.5;
+}
+.servicios div .diseñoWeb {
+    max-width: 25%;
+    height: 40px;
+    margin-left: 45px;
+    padding: 0px;
+    line-height: 1.5;
+}
+.servicios div .redesSociales {
+    max-width: 25%;
+    height: 40px;
+    margin-left: 45px;
+    padding: 0px;
+    line-height: 1.5;
+}
+.servicios div .branding p{
+    margin-top: 10px;
+}
+.servicios div .diseñoWeb p{
+    margin-top: 10px;
+}
+.servicios div .redesSociales p{
+    margin-top: 10px;
+}
+.formasDeTrabajo p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 41%;
+    
+}
+.formasDeTrabajo .formasDeTrabajo_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.formasDeTrabajo .formasDeTrabajo_video {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 32%;
+}
+.contacto form{
+   background-color: rgb(137, 145, 145);
+    color: 999;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.contacto form label {
+    padding-inline: 5px;
+    padding-top: 5px;
+    margin: 20px;
+    white-space: nowrap;
+
+}
+
+
+.contacto form input {
+    padding-inline: 60px;
+    margin: 20px;
+    
+}
+.contacto form div .cuadro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.contacto form div .titulocheck {
+    padding-inline: 8px;
+    font-weight: bolder;
+}
+.contacto form div .check {
+    width: 60px;
+    margin-left: 55px;
+    margin-top: 30px;
+} 
+.contacto form p{
+    padding-inline: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+}    
+.contacto form div .checkbox {
+    width: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+.contacto form .pais {
+    font-weight: bolder;
+}    
+.contacto form .botones {
+    width: 30px;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-bottom: 4px;
+    border-radius: 10px;
+} 
+.contacto form .adjunto {
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
