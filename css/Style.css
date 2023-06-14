@@ -30,6 +30,7 @@ h1 {
 }
 .contenido {
     padding-top: 100px;
+    margin-left: auto;
 }
 .clientes{
     margin-top: 50px;
@@ -158,57 +159,35 @@ section .redes label{
     line-height: 1.5;
     border-radius: 10px;
 }
-.servicios div{
+.servicios {
     background-color: aqua;
-    display: inline-block;
-    margin: 20px 20px 20px 20px;
-    padding: 15px;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
+@media (min-width:768px){
+    .servicios {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+  
 
-.servicios div .branding {
-    max-width: 25%;
-    height: 40px;
-    margin-left: 45px;
-    line-height: 1.5;
+.formasDeTrabajo .formasDeTrabajo_text p{
+    margin-top: 40px ;
+    margin-left: 27%;
+    padding: auto;    
+    font-size: xx-large;
+    font-family:'Inter', sans-serif;
+
 }
-.servicios div .diseñoWeb {
-    max-width: 25%;
-    height: 40px;
-    margin-left: 45px;
-    padding: 0px;
-    line-height: 1.5;
-}
-.servicios div .redesSociales {
-    max-width: 25%;
-    height: 40px;
-    margin-left: 45px;
-    padding: 0px;
-    line-height: 1.5;
-}
-.servicios div .branding p{
-    margin-top: 10px;
-}
-.servicios div .diseñoWeb p{
-    margin-top: 10px;
-}
-.servicios div .redesSociales p{
-    margin-top: 10px;
-}
-.formasDeTrabajo p {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 41%;
+.formasDeTrabajo .formasDeTrabajo_video iframe {
     
-}
-.formasDeTrabajo .formasDeTrabajo_text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.formasDeTrabajo .formasDeTrabajo_video {
     margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 32%;
+    margin-bottom: 150px;
+    margin-left: 27%;
+    width: 60%;
 }
 .contacto form{
    background-color: rgb(137, 145, 145);
@@ -273,4 +252,8 @@ section .redes label{
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 30px; 
+}
+.cuadroAdjuntar .adjunto {
+    padding: 5px 90px;
+    margin-left: opx;
 }
